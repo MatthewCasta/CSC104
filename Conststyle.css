@@ -1,0 +1,47 @@
+/* all code entered into the body will effect the entire page*/
+/* I tried to replicate the look of the real Constitution with an added twist*/
+body{
+	background-color: #fcdfc9;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1{
+    /*This heading is used to signify the first heading / title of page*/
+	color: #000000;
+	text-shadow:0 0 5px rgb(159, 159, 159);
+	font-family: Georgia, serif;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+h2{
+    /*This heading is used to signify the second heading / main header*/
+	color: #0c0d0f;
+	font-family: Georgia, serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+h3{
+    /*This heading is used to signify the third heading / sub section */
+	color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+	font-family: Georgia, serif;
+}
+
+p{
+    /*This section is for the writin paragraphs*/
+	color: #471d02;
+	font-family: Georgia, serif;
+    font-weight: bolder;
+    text-indent: 0.5cm;
+}
+
+a:visited{
+	color:rgb(110, 110, 110);
+}
